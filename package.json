@@ -1,0 +1,26 @@
+{
+  "name": "todo-ts_tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  },
+  "repository": "https://github.com/rohitthapa2320/todo-ts_tut.git",
+  "author": "rohitthapa2320 <rohit.t@safe.security>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.0.1",
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.18"
+  }
+}
